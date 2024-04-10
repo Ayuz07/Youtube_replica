@@ -1,0 +1,182 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 55px;
+   
+}
+.left-section  {
+    display: flex;
+   align-items: center;
+    align-items: center;
+    width: 200px;
+   
+    padding-left: 20px;
+    cursor: pointer;
+}
+.Hamburger_icon{
+    width: 20px;
+    
+
+}
+
+
+.Hamburger{
+    width: 20px;
+    padding-top: 4px;
+    padding-bottom:1px ;
+    padding-right:4px ;
+    padding-left: 4px;
+    margin-right: 17px;
+    border-radius: 100px;
+
+  
+}
+.Hamburger:hover{
+    background-color: rgb(198, 198, 198);
+}
+
+.youtube-logo{
+    width: 80px;
+}
+
+
+
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    
+    flex: 1;
+    max-width: 560px;
+}
+
+
+.search_bar{
+    flex: 1;
+    width: 0;
+    padding: 15px;
+    height: 35px;
+    border-top-left-radius:100px;
+    border-bottom-left-radius: 100px ;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+
+    border: 1px solid rgb(192, 192, 192);
+}
+.search_bar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+
+.search_button{
+        max-width: 50px;
+       height: 35px;
+        margin-right: 26px;
+        padding-right: 17px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        border-width: 0.5px;
+        border-color:black;
+        margin-left: -1.5px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        cursor: pointer; 
+
+        background-color: rgb(240, 240, 240);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(192, 192, 192);
+       
+}
+.voice_search_button{
+    width: 35px;
+    height: 36px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.voice_search_button:hover{
+    background-color: rgb(198, 198, 198);
+}
+
+
+
+
+
+
+
+
+.right-section{
+    justify-content: space-between;
+    display: flex;
+   
+    width: 130px;
+    align-items: center;
+    padding-right: 30px;
+    
+}
+.create{
+    width: 23px;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom:3px;
+    padding-right:6px ;
+    padding-left:6px ;
+    border-radius: 100px;
+}
+.create:hover{
+    background-color: #dbdbdb;
+   
+}
+
+.notifications_icon{
+    width: 23px;
+    position: relative;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom:3px;
+    padding-right:6px ;
+    padding-left:6px ;
+    border-radius: 100px;
+}
+.notifications_icon:hover{
+    background-color: #dbdbdb;
+}
+.notifications{
+    position: absolute;
+    background-color: rgb(192, 7, 7);
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+    top: 4px;
+    left: 17px;
+    height: 10px;
+    width: 5px;
+    border-radius: 10px;
+
+}
+.account_pic{
+    width: 35px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+
+
+
+
